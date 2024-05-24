@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>wendel portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        min-width: 100vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+      }
+      .title {
+        background-color: #7f84f1;
+        padding: 0 5px;
+        text-align: center;
+        border-radius: 50px;
+      }
+      .hi {
+        display: flex;
+        align-items: center;
+      }
+      .hi h1 {
+        font-size: 128px;
+        color: #7f84f1;
+      }
+      .card-right {
+        background:#7f84f1;
+        border-radius: 50px 0px 0px 50px;
+      }
+      header {
+        background: #ffffff;
+        border-radius: 50px;
+        margin: 50px 100px;
+        padding: 5px 10px;
+      }
+      header ul {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+      header ul li {
+        list-style: none;
+      }
+      .info {
+        color: white;
+        font-size: 24px;
+        padding: 0 20px;
+      }
+      .info .web-dev {
+        font-size: 36px;
+      }
+
+      .icon {
+        display: flex;
+        gap: 25px;
+        margin-left: 50px;
+      }
+
+      @media only screen and (max-width: 600px) {
+        main {
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 30px;
+          align-items: center;
+          background-color: aqua;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <main>
+        <div>
+          <div class="title">
+            <h1>MY PORTFOLIO</h1>
+          </div>
+          <div class="hi">
+            <img src="image/setting.png" whidth="254" height="257" />
+            <h1>Hi!</h1>
+          </div>
+          <img src="image/me.png" width="461" height="638" />
+        </div>
+
+        <div class="card-right">
+          <header>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="aboutme.html">ABOUT ME</a></li>
+              <li><a href="contact.html">CONTACTS</a></li>
+              <li><a href="resume.html">RESUME</a></li>
+            </ul>
+          </header>
+
+          <div class="info">
+            <h1>Im Wendel Nilo</h1>
+            <h1>YOUR</h1>
+            <div class="web-dev">
+              <h1>WEB DEVELOPER</h1>
+            </div>
+          </div>
+       
+          <div class="computer">
+            <img src="image/computer1.png" width="699" height="466" />
+          </div>
+        </div>
+      </main>
+
+      <!-- icon -->
+      <div class="icon">
+        <a href="https://www.facebook.com/wendel.nilo.14"
+          ><img src="image/facebook.png" width="64" height="64"
+        /></a>
+        <a href="https://www.instagram.com/nilowendel"
+          ><img src="image/ig.png" width="72" height="72"
+        /></a>
+        <a href="https://www.tiktok.com/@nilo_wendel"
+          ><img src="image/tiktok.png" width="64" height="64"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
+

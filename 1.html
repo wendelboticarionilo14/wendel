@@ -1,480 +1,712 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
         body {
-            background-color: #FFFFFF;
+        background-color: #ffffff;
+       }
+                                                           div.background {
+                                                          /* Rectangle 1 */
 
+                                                          position: absolute;
+                                                          width: 975px;
+                                                          height: 1024px;
+                                                          left: 465px;
+                                                          top: 0px;
+
+                                                          background: rgba(14, 23, 228, 0.53);
+                                                          border-radius: 50px 0px 0px 50px;
+                                                        }
+
+                                                        div.whitebackground {
+                                                          /* Rectangle 2 */
+
+                                                          position: absolute;
+                                                          width: 738px;
+                                                          height: 59px;
+                                                          left: 538px;
+                                                          top: 45px;
+
+                                                          background: #ffffff;
+                                                          border-radius: 50px;
+                                                        }
+
+                                                        div.home {
+                                                          /* HOME */
+
+                                                          position: absolute;
+                                                          width: 188px;
+                                                          height: 44px;
+                                                          left: 600px;
+                                                          top: 52px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 24px;
+                                                          line-height: 140%;
+                                                          /* or 34px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #000000;
+                                                        }
+
+                                                        div.aboutme {
+                                                          /* ABOUT ME */
+
+                                                          position: absolute;
+                                                          width: 188px;
+                                                          height: 44px;
+                                                          left: 726px;
+                                                          top: 52px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 24px;
+                                                          line-height: 140%;
+                                                          /* or 34px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #000000;
+                                                        }
+
+                                                        div.contact {
+                                                          /* CONTACT */
+
+                                                          position: absolute;
+                                                          width: 188px;
+                                                          height: 44px;
+                                                          left: 906px;
+                                                          top: 52px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 24px;
+                                                          line-height: 140%;
+                                                          /* or 34px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #000000;
+                                                        }
+
+                                                        div.resume {
+                                                          /* RESUME */
+
+                                                          position: absolute;
+                                                          width: 188px;
+                                                          height: 44px;
+                                                          left: 1070px;
+                                                          top: 52px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 24px;
+                                                          line-height: 140%;
+                                                          /* or 34px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #000000;
+                                                        }
+
+                                                        div.design1 {
+                                                          /* Rectangle 3 */
+                                                          position: absolute;
+                                                          width: 263px;
+                                                          height: 274px;
+                                                          left: 1024px;
+                                                          top: 281.03px;
+
+                                                          background: #3c2fd3;
+                                                          border-radius: 0px 50px 50px 0px;
+                                                          transform: rotate(-43.8deg);
+                                                        }
+
+                                                        div.design2 {
+                                                          /* Rectangle 4 */
+
+                                                          position: absolute;
+                                                          width: 263px;
+                                                          height: 274px;
+                                                          left: 822px;
+                                                          top: 471.03px;
+
+                                                          background: rgba(60, 47, 211, 0.69);
+                                                          border-radius: 50px 0px 0px 0px;
+                                                          transform: rotate(-43.8deg);
+                                                        }
+
+                                                        div.design3 {
+                                                          /* Rectangle 5 */
+
+                                                          position: absolute;
+                                                          width: 263px;
+                                                          height: 274px;
+                                                          left: 1024px;
+                                                          top: 680.03px;
+
+                                                          background: rgba(60, 47, 211, 0.3);
+                                                          border-radius: 0px 0px 50px 50px;
+                                                          transform: rotate(-43.8deg);
+                                                        }
+
+                                                        div.computer {
+                                                          /* computer1 1 */
+
+                                                          position: absolute;
+                                                          width: 699px;
+                                                          height: 466px;
+                                                          left: 650px;
+                                                          top: 550px;
+
+                                                          background: url(computer1.png);
+                                                        }
+
+                                                        div.hi {
+                                                          /* Hi! */
+
+                                                          position: absolute;
+                                                          width: 245px;
+                                                          height: 109px;
+                                                          left: 250px;
+                                                          top: 145px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 128px;
+                                                          line-height: 140%;
+                                                          /* or 179px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #7f84f1;
+                                                        }
+
+                                                        div.imwendelnilo {
+                                                          /* Im Wendel Nilo */
+
+                                                          position: absolute;
+                                                          width: 530px;
+                                                          height: 92px;
+                                                          left: 500px;
+                                                          top: 246px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 64px;
+                                                          line-height: 140%;
+                                                          /* or 90px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #ffffff;
+                                                        }
+
+                                                        div.your {
+                                                          /* YOUR */
+
+                                                          position: absolute;
+                                                          width: 239px;
+                                                          height: 38px;
+                                                          left: 650px;
+                                                          top: 353px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 48px;
+                                                          line-height: 140%;
+                                                          /* or 67px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #ffffff;
+                                                        }
+
+                                                        div.webdeveloper {
+
+
+                                                          /* WEB DEVELOPER */
+
+                                                          position: absolute;
+                                                          width: 838px;
+                                                          height: 128px;
+                                                          left: 518px;
+                                                          top: 430px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 96px;
+                                                          line-height: 140%;
+                                                          /* or 134px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #ffffff;
+                                                        }
+
+                                                        div.setting {
+                                                          /* image 49 */
+
+                                                          position: absolute;
+                                                          width: 254px;
+                                                          height: 257px;
+                                                          left: 27px;
+                                                          top: 152px;
+
+                                                          background: url(image.png);
+                                                        }
+
+                                                        div.me {
+                                                          /* Picsart_24-05-18_15-46-45-431 1 */
+
+                                                          position: absolute;
+                                                          width: 461px;
+                                                          height: 638px;
+                                                          left: 118px;
+                                                          top: 280px;
+
+                                                          background: url(Picsart_24-05-18_15-46-45-431.png);
+                                                        }
+
+                                                        .backgroundmyportfolio {
+                                                          /* Rectangle 6 */
+
+                                                          position: absolute;
+                                                          width: 430px;
+                                                          height: 58px;
+                                                          left: 11px;
+                                                          top: 25px;
+
+                                                          background: #7f84f1;
+                                                          border-radius: 50px;
+                                                        }
+                                                        /* MY PORTFOLIO */
+                                                        .myportfolio {
+                                                          position: absolute;
+                                                          width: 305px;
+                                                          height: 10px;
+                                                          left: 73px;
+                                                          top: 54px;
+
+                                                          font-family: "Inter";
+                                                          font-style: normal;
+                                                          font-weight: 500;
+                                                          font-size: 40px;
+                                                          line-height: 140%;
+                                                          /* or 56px */
+                                                          display: flex;
+                                                          align-items: center;
+                                                          text-align: center;
+
+                                                          color: #000000;
+                                                        }
+
+
+
+                                                        div.facebook {
+                                                          /* facebook 1 */
+
+                                                          position: absolute;
+                                                          width: 64px;
+                                                          height: 64px;
+                                                          left: 55px;
+                                                          top: 918px;
+
+                                                          background: url(facebook.png);
+                                                        }
+
+                                                        div.ig {
+                                                          /* ig 1 */
+
+                                                          position: absolute;
+                                                          width: 72px;
+                                                          height: 60px;
+                                                          left: 154px;
+                                                          top: 915px;
+
+                                                          background: url(ig.png);
+                                                        }
+
+                                                        div.tiktok {
+                                                          /* tiktok 1 */
+
+                                                          position: absolute;
+                                                          width: 60px;
+                                                          height: 60px;
+                                                          left: 261px;
+                                                          top: 920px;
+
+                                                          background: url(tiktok.png);
+                                                        }
+
+          @media screen and (max-width: 600px) {
+
+           div.background {
+          position: absolute;
+          width: 850px;
+          height: 2350px;
+          left: 465px;
+          top: 0px;
+          background: rgba(14, 23, 228, 0.53);
+          border-radius: 50px 0px 0px 50px;
+      }
+         div.whitebackground{
+         
+    position: absolute;
+    width: 1100px;
+    height: 100px;
+    left: 95px;
+    top: 400px;
+     background: #9d94c9;
+    
+    border-radius: 50px;
+
+          
+         }
+             div.home {
+        position: absolute;
+        width: 188px;
+        height: 44px;
+        left: 200px;
+        top: 425px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+        div.aboutme {
+        position: absolute;
+        width: 188px;
+        height: 44px;
+        left: 400px;
+        top: 425px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+        div.contact {
+        position: absolute;
+        width: 188px;
+        height: 44px;
+        left: 650px;
+        top: 425px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+      div.resume {
+        position: absolute;
+        width: 188px;
+        height: 44px;
+        left: 950px;
+        top: 425px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+       }
+        div.design1 {
+        position: absolute;
+        width: 463px;
+        height: 474px;
+        left: 750px;
+        top: 740px;
+        background: #3c2fd3;
+        border-radius: 0px 50px 50px 0px;
+        transform: rotate(-43.8deg);
+       }                                               
+
+      div.design2 {
+        position: absolute;
+        width: 463px;
+        height: 474px;
+        left: 401px;
+        top: 1070px;
+        background: rgba(60, 47, 211, 0.69);
+        border-radius: 50px 0px 0px 0px;
+        transform: rotate(-43.8deg);
+      }                                                 
+      div.design3 {
+        position: absolute;
+        width: 463px;
+        height: 474px;
+        left: 750px;
+        top: 1430px;
+        background: rgba(60, 47, 211, 0.3);
+        border-radius: 0px 0px 50px 50px;
+        transform: rotate(-43.8deg);
+    }
+                                                        
+               
+     div.computer {
+      position: absolute;
+      width: 699px;
+      height: 466px;
+      left: 650px;
+      top: 1550px;
+      background: url(computer1.png);
+
+     }
+                                                        
+
+          div.hi {
+        position: absolute;
+        width: 245px;
+        height: 109px;
+        left: 250px;
+        top: 645px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 128px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #7f84f1;
+    }                                              
+           div.imwendelnilo {
+        position: absolute;
+        width: 530px;
+        height: 92px;
+        left: 500px;
+        top: 746px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 64px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+    }                                            
+          div.your {
+        position: absolute;
+        width: 239px;
+        height: 38px;
+        left: 700px;
+        top: 900px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+    }
+          div.webdeveloper {
+           
+        position: absolute;
+        width: 838px;
+        height: 128px;
+        left: 518px;
+        top: 1050px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 110px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+    
+
+          }                                              
+
+         div.setting {
+          /* image 49 */
+
+           position: absolute;
+           width: 254px;
+           height: 257px;
+           left: 27px;
+          top: 1152px;
+
+         background: url(image.png);
         }
+        div.me {
+        position: absolute;
+        width: 461px;
+        height: 638px;
+        left: 118px;
+        top: 1280px;
+        background: url(Picsart_24-05-18_15-46-45-431.png);
+         }
+         .backgroundmyportfolio {
+        position: absolute;
+        width: 1300px;
+        height: 258px;
+        left: 11px;
+        top: 0px;
+        background: #9d94c9;
+        border-radius: 50px;
+    }
+      .myportfolio {
+        position: absolute;
+        width: 800px;
+        height: 80px;
+        left: 400px;
+        top: 100px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #ffffff;
+    }
+                                                        
 
-        div.a {
-            /* Rectangle 1 */
+                                                       
+                                                       
+                                                        
 
-            position: absolute;
-            width: 975px;
-            height: 1024px;
-            left: 465px;
-            top: 0px;
 
-            background: rgba(14, 23, 228, 0.53);
-            border-radius: 50px 0px 0px 50px;
 
+        div.facebook {
+        position: absolute;
+        width: 64px;
+        height: 64px;
+        left: 55px;
+        top: 1918px;
+        background: url(facebook.png);
         }
-
-        div.b {
-            /* Rectangle 2 */
-
-            position: absolute;
-            width: 738px;
-            height: 59px;
-            left: 538px;
-            top: 45px;
-
-            background: #FFFFFF;
-            border-radius: 50px;
-
-
-        }
-
-        div.c {
-            /* HOME */
-
-            position: absolute;
-            width: 188px;
-            height: 44px;
-            left: 600px;
-            top: 52px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 140%;
-            /* or 34px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-
-
-
-
-
-        }
-
-        div.d {
-            /* ABOUT ME */
-
-            position: absolute;
-            width: 188px;
-            height: 44px;
-            left: 726px;
-            top: 52px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 140%;
-            /* or 34px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-
-
-
-
-
-        }
-
-        div.e {
-            /* CONTACT */
-
-            position: absolute;
-            width: 188px;
-            height: 44px;
-            left: 906px;
-            top: 52px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 140%;
-            /* or 34px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-
-
-
-
-
-        }
-
-        div.f {
-            /* RESUME */
-
-            position: absolute;
-            width: 188px;
-            height: 44px;
-            left: 1070px;
-            top: 52px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 24px;
-            line-height: 140%;
-            /* or 34px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-
-
-
-
-
-        }
-
-
-        div.h {
-            /* Rectangle 3 */
-            position: absolute;
-            width: 263px;
-            height: 274px;
-            left: 1024px;
-            top: 281.03px;
-
-            background: #3C2FD3;
-            border-radius: 0px 50px 50px 0px;
-            transform: rotate(-43.8deg);
-
-
-
-
-        }
-
-        div.i {
-            /* Rectangle 4 */
-
-            position: absolute;
-            width: 263px;
-            height: 274px;
-            left: 822px;
-            top: 471.03px;
-
-            background: rgba(60, 47, 211, 0.69);
-            border-radius: 50px 0px 0px 0px;
-            transform: rotate(-43.8deg);
-        }
-
-        div.j {
-            /* Rectangle 5 */
-
-            position: absolute;
-            width: 263px;
-            height: 274px;
-            left: 1024px;
-            top: 680.03px;
-
-            background: rgba(60, 47, 211, 0.3);
-            border-radius: 0px 0px 50px 50px;
-            transform: rotate(-43.8deg);
-        }
-
-        div.k {
-            /* computer1 1 */
-
-            position: absolute;
-            width: 699px;
-            height: 466px;
-            left: 650px;
-            top: 550px;
-
-            background: url(computer1.png);
-
-        }
-
-        div.l {
-            /* Hi! */
-
-            position: absolute;
-            width: 245px;
-            height: 109px;
-            left: 250px;
-            top: 145px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 128px;
-            line-height: 140%;
-            /* or 179px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #7F84F1;
-
-        }
-
-        div.m {
-            /* Im Wendel Nilo */
-
-            position: absolute;
-            width: 530px;
-            height: 92px;
-            left: 500px;
-            top: 246px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 64px;
-            line-height: 140%;
-            /* or 90px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #FFFFFF;
-
-        }
-
-        div.n {
-            /* YOUR */
-
-            position: absolute;
-            width: 239px;
-            height: 38px;
-            left: 650px;
-            top: 353px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 48px;
-            line-height: 140%;
-            /* or 67px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #FFFFFF;
-
-        }
-
-        div.o {
-            /* Group 2 */
-
-            position: absolute;
-            width: 838px;
-            height: 128px;
-            left: 518px;
-            top: 430px;
-
-
-
-            /* WEB DEVELOPER */
-
-            position: absolute;
-            width: 838px;
-            height: 128px;
-            left: 518px;
-            top: 430px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 96px;
-            line-height: 140%;
-            /* or 134px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #FFFFFF;
-
-        }
-
-        div.p {
-            /* image 49 */
-
-            position: absolute;
-            width: 254px;
-            height: 257px;
-            left: 27px;
-            top: 152px;
-
-            background: url(image.png);
-        }
-
-
-        div.r {
-            /* Picsart_24-05-18_15-46-45-431 1 */
-
-            position: absolute;
-            width: 461px;
-            height: 638px;
-            left: 118px;
-            top: 280px;
-
-            background: url(Picsart_24-05-18_15-46-45-431.png);
-        }
-
-        div.s {
-            /* Rectangle 6 */
-
-            position: absolute;
-            width: 430px;
-            height: 58px;
-            left: 11px;
-            top: 25px;
-
-            background: #7F84F1;
-            border-radius: 50px;
-        }
-
-        div.t {
-            /* MY PORTFOLIO */
-
-            position: absolute;
-            width: 305px;
-            height: 40px;
-            left: 73px;
-            top: 34px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 40px;
-            line-height: 140%;
-            /* or 56px */
-            display: flex;
-            align-items: center;
-            text-align: center;
-
-            color: #000000;
-
-        }
-
-        div.u {
-            /* facebook 1 */
-
-            position: absolute;
-            width: 64px;
-            height: 64px;
-            left: 55px;
-            top: 918px;
-
-            background: url(facebook.png);
-        }
-
-        div.v {
-            /* ig 1 */
-
-            position: absolute;
-            width: 72px;
-            height: 60px;
-            left: 154px;
-            top: 915px;
-
-            background: url(ig.png);
-        }
-
-        div.w {
-            /* tiktok 1 */
-
-            position: absolute;
-            width: 60px;
-            height: 60px;
-            left: 261px;
-            top: 920px;
-
-            background: url(tiktok.png);
-        }
-
-        @media screen and (max-width: 992px) {}
+       div.ig {
+        position: absolute;
+        width: 72px;
+        height: 60px;
+        left: 154px;
+        top: 1915px;
+        background: url(ig.png);
+       }
+       div.tiktok {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        left: 261px;
+        top: 1920px;
+        background: url(tiktok.png);
+       }
+                                                        
+
+                                                      
     </style>
     <title>wendel portfolio</title>
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <div>
-        <div class="a"></div>
-        <div class="b"></div>
-        <div class="c"><a href="index.html">
-                <p>HOME</p>
-            </a>
-        </div>
-        <div class="d"><a href="aboutme.html">
-                <p>ABOUT ME</p>
-            </a>
-        </div>
-        <div class="e"><a href="contact.html">
-                <p>CONTACTS</p>
-            </a></div>
-        <div class="f"><a href="resume.html">
-                <p>RESUME</p>
-            </a></div>
+      <div class="background"></div>
+      <div class="whitebackground"></div>
+      <div class="home">
+        <a href="index.html">
+          <p>HOME</p>
+        </a>
+      </div>
+      <div class="aboutme">
+        <a href="aboutme.html">
+          <p>ABOUT ME</p>
+        </a>
+      </div>
+      <div class="contact">
+        <a href="contact.html">
+          <p>CONTACTS</p>
+        </a>
+      </div>
+      <div class="resume">
+        <a href="resume.html">
+          <p>RESUME</p>
+        </a>
+      </div>
 
-        <div class="h"></div>
-        <div class="i"></div>
-        <div class="j"></div>
-        <div class="k"><img src="image/computer1.png" width="699" height="466"></div>
-        <div class="l">
-            <p>Hi!</p>
-        </div>
-        <div class="m">
-            <p>Im Wendel Nilo</p>
-        </div>
-        <div class="n">
-            <p>YOUR</p>
-        </div>
-        <div class="o">
-            <p>WEB DEVELOPER</p>
-        </div>
-        <div class="P"><img src="image/setting.png" width="254" height="257"></div>
-        <div class="r"><img src="image/me.png" width="461" height="638"></div>
-        <div class="s"></div>
-        <div class="t">
-            <p>MY PORTFOLIO</p>
-        </div>
-        <div class="u"><a href="https://www.facebook.com/wendel.nilo.14"><img src="image/facebook.png" width="64"
-                    height="64"></a></div>
-        <div class="v"><a href="https://www.instagram.com/nilowendel"><img src="image/ig.png" width="72"
-                    height="72"></a></div>
-        <div class="w"><a href="https://www.tiktok.com/@nilo_wendel"><img src="image/tiktok.png" width="64"
-                    height="64"></a></div>
+      <div class="design1"></div>
+      <div class="design2"></div>
+      <div class="design3"></div>
+      <div class="computer">
+        <img src="image/computer1.png" width="699" height="466" />
+      </div>
+      <div class="hi">
+        <p>Hi!</p>
+      </div>
+      <div class="imwendelnilo">
+        <p>Im Wendel Nilo</p>
+      </div>
+      <div class="your">
+        <p>YOUR</p>
+      </div>
+      <div class="webdeveloper">
+        <p>WEB DEVELOPER</p>
+      </div>
+      <div class="setting">
+        <img src="image/setting.png" width="254" height="257" />
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="me"><img src="image/me.png" width="461" height="638" /></div>
+      <div class="backgroundmyportfolio"></div>
+      <div class="myportfolio"><p>MY PORTFOLIO</p></div>
+      <div class="facebook">
+        <a href="https://www.facebook.com/wendel.nilo.14"
+          ><img src="image/facebook.png" width="64" height="64"
+        /></a>
+      </div>
+      <div class="ig">
+        <a href="https://www.instagram.com/nilowendel"
+          ><img src="image/ig.png" width="72" height="72"
+        /></a>
+      </div>
+      <div class="tiktok">
+        <a href="https://www.tiktok.com/@nilo_wendel"
+          ><img src="image/tiktok.png" width="64" height="64"
+        /></a>
+      </div>
     </div>
-
-
-
-</body>
-
+  </body>
 </html>
