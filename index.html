@@ -4,8 +4,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <style>
-        body {
+        .body {
         background-color: #ffffff;
+        display: flex;
+        
        }
                                                            div.background {
                                                           /* Rectangle 1 */
@@ -360,7 +362,18 @@
                                                         }
 
           @media screen and (max-width: 600px) {
-
+         body {
+    display: block;
+    margin: 8px;
+}          
+ main {
+          display: flex;
+          
+          gap: 30px;
+          align-items: center;
+          
+        }
+       
            div.background {
           position: absolute;
           width: 850px;
@@ -398,7 +411,7 @@
         align-items: center;
         text-align: center;
         color: #000000;
-    }
+         }
         div.aboutme {
         position: absolute;
         width: 188px;
@@ -635,16 +648,28 @@
         top: 1920px;
         background: url(tiktok.png);
        }
+        main {
+          display: flex;
+          flex-direction: column-reverse;
+          gap: 30px;
+          align-items: center;
+          background-color: aqua;
+        }
+     
+       
+
                                                         
 
                                                       
     </style>
     <title>wendel portfolio</title>
   </head>
-
-  <body>
-    <div>
-      <div class="background"></div>
+   <main>
+  <div>
+    
+  
+   
+     <div class="background"></div>
       <div class="whitebackground"></div>
       <div class="home">
         <a href="index.html">
@@ -707,7 +732,9 @@
           ><img src="image/tiktok.png" width="64" height="64"
         /></a>
       </div>
-    </div>
+    </main>
+  </div>
+</main>
   </body>
 </html>
 
