@@ -261,6 +261,17 @@ body{
       margin-left: 50px;
       text-decoration: underline;
     }
+   .myportfolio{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+   gap: 20px;
+   }
+   .myportfolio h1 {
+    color: #ffffff;
+   }
 
     
 @media screen and (max-width: 900px) {
