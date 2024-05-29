@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>wendel nilo</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-
- 
-  </head>
-
-  <body>
-   <div class="myportfolio"><a href="home.html"><img src="image/portfolio.png" width="200" height="200" /></a>
-       <h1> MY PORTFOLIO</h1>
-      </div>
-   
-       
-                                                
-
-    <script src="wendel.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                     <h6>Hi! Im Wendel Nilo<br>to check my portfolio please...</h6>
+                    <div class="text"><a href="home.html"><p>click here!</p></a>
+                    </div>
+                </div>
+            </div>
+         
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
 </html>
