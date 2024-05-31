@@ -5,8 +5,8 @@
 }
 
 body{
-  background-image: url("image/image2.webp");
-  background-size: cover;
+  background-image: url("image/imagebck.jpg");
+  
   height: 100%;
   }
 
@@ -532,7 +532,7 @@ text-rendering: auto;
 }
     
 @media screen and (max-width: 900px) {
-   
+  
  
   
 
