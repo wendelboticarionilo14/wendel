@@ -5,9 +5,10 @@
 }
 
 body{
-  background-image: url("image/imageback.webp");
-
+  background-image: url("image/25.avif");
+ height: 100%;
  background-size: cover;
+}
  
 
   
@@ -237,7 +238,16 @@ text-rendering: auto;
 
     }
     /*.............................................. ABOUT ME.HTML.........................*/
-      
+    .rec15{
+
+background-color:rgba(255, 255, 255, 0.637);
+  justify-content: center;
+  display: flex;
+  width: 600px;
+  border-radius: 20px;
+  height: 350px;
+  margin-left: 100px;
+  }
      .aboutme h1{
   margin-top: 10px;
   display: flex;
@@ -246,33 +256,22 @@ text-rendering: auto;
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color:black ;
+  background-color:rgb( 156, 134, 252) ;
   border-radius: 50px;
   
 }
   .info h2{
    margin-top: 50px;
-   margin-left: 100px;
-   margin-right: 200px;
+   margin-left: 20px;
+   margin-right: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-
+  color: #000000;
+ 
   }
-    .contact h1{
-  margin-top: 10px;
-  display: flex;
-  font-size: 2.5rem;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  background-color:black ;
-  border-radius: 50px;
   
-}
 .desktop-view {
         display: flex;
         place-items: center;
@@ -288,6 +287,19 @@ text-rendering: auto;
 
 /* .........................................contact.html......................... */
 
+  .contact h1{
+  margin-top: 10px;
+  display: flex;
+  font-size: 2.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color:rgb(156, 134, 252) ;
+  
+  border-radius: 50px;
+  
+}
 .phone{
       margin-top: 50px;
       justify-content: center;
@@ -353,7 +365,7 @@ text-rendering: auto;
 
 .rec{
 
-  background-color: #fff;
+  background-color: #ffffff98;
   justify-content: center;
   display: flex;
   width: 250px;
@@ -365,7 +377,7 @@ text-rendering: auto;
 }
  .rec1{
 
-  background-color: #ffffff;
+  background-color: #ffffff98;
   justify-content: center;
   display: flex;
   width: 300px;
@@ -374,7 +386,7 @@ text-rendering: auto;
   }
   .rec2{
 
-  background-color: #ffffff;
+  background-color: #ffffff98;
  
   display: flex;
   width: 200px;
@@ -393,7 +405,7 @@ text-rendering: auto;
   }
    .rec3{
 
-  background-color: #ffffff;
+  background-color: #ffffff98;
  
   display: flex;
   width: 200px;
@@ -414,7 +426,7 @@ text-rendering: auto;
 
 
   .recskill{
-    background-color: #ffffff;
+    background-color: #ffffff98;
      display: flex;
   width: 250px;
   border-radius: 20px;
@@ -458,7 +470,7 @@ text-rendering: auto;
   }
 
  .reccertification{
-    background-color: #ffffff;
+    background-color: #ffffff98;
      display: flex;
   width: 300px;
   border-radius: 20px;
@@ -492,7 +504,7 @@ text-rendering: auto;
   }
    
 .receducation{
-    background-color: #ffffff;
+    background-color: #ffffff98;
      display: flex;
   width: 200px;
   border-radius: 20px;
@@ -663,19 +675,24 @@ ul li {
 }
 .info h2 {
     margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #000000;
     font-size: larger;
+background-color:rgba(255, 255, 255, 0.637);
+border-radius: 20px;
+
+   
 }
 .image{
   display: flex;
   margin-right: 40px;
 }
+
 
 /* ...............................contact................................ */
 
