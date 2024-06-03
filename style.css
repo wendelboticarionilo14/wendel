@@ -5,9 +5,10 @@
 }
 
 body{
-  background-image: url("image/25.avif");
+  background-image: url("image/wen.webp");
  height: 100%;
  background-size: cover;
+ max-width: 100%;
 }
 
 
@@ -104,6 +105,7 @@ body{
   display: flex;
   justify-content: space-between;
   place-items: center;
+  border:solid 2px #ffffff;
 }
 .navbar-link{
   display: flex;
@@ -113,9 +115,10 @@ body{
 
 .navbar .logo {
   margin-right: 20px;
-  color: #5b3de4;
+  color: #ffffff;
   font-size: 22px;
-  background-color: #ffffff;
+  background-color: #5b3de4;
+  border: solid 2px #ffffff;
  }
 
  ul {
@@ -136,6 +139,7 @@ ul li a {
   font-family: Arial;
   font-weight: bold;
   transition: 0.4s ease-in-out;
+  -webkit-text-stroke: #5b3de4;
 }
 
 ul li a:hover {
@@ -168,6 +172,7 @@ text-rendering: auto;
 
    #hamburger{
       display: none;
+      border: solid 1px #ffffff;
     }
     .hamburger .line{
       height: 3px;
@@ -179,6 +184,7 @@ text-rendering: auto;
 
 .line h1 span {
   color: rgb(0, 0, 0);
+
 }
 .line p {
   margin-top: 30px;
@@ -186,6 +192,9 @@ text-rendering: auto;
 .logo h1 span {
   color: rgb(255, 255, 255);
   background-color: #5b3de4;
+
+  
+
 }
 
 
@@ -197,6 +206,17 @@ text-rendering: auto;
      flex-direction: column;
      display: flex;
      margin-left: 50px;
+     
+   
+
+    }
+    .myimage img{
+      background-color: transparent;
+      border-radius: 50%;
+      border: solid 3px #8c00ff;
+    
+      background-color: #000000;
+        
     }
     .facebook1{
       margin-left: 50px;
@@ -218,9 +238,12 @@ text-rendering: auto;
     margin-top: 50px;
     color: #ffffff;
     font-size: x-large;
+    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-fill-color: #000000;
 
     }
     .hi h1{font-size: 100px;
+      color: #000;
       
     }
     .me2{
@@ -238,13 +261,15 @@ text-rendering: auto;
     /*.............................................. ABOUT ME.HTML.........................*/
     .rec15{
 
-background-color:rgba(255, 255, 255, 0.637);
+  
+    background-color: #fff;
   justify-content: center;
   display: flex;
   width: 600px;
   border-radius: 20px;
   height: 350px;
   margin-left: 100px;
+  border:  solid #000;
   }
      .aboutme h1{
   margin-top: 10px;
@@ -254,8 +279,9 @@ background-color:rgba(255, 255, 255, 0.637);
   justify-content: center;
   align-items: center;
   color: #fff;
-  background-color: #5b3de4;
+  background-color: #000000;
   border-radius: 50px;
+  border: solid #ffffff;
   
 }
   .info h2{
@@ -281,6 +307,9 @@ background-color:rgba(255, 255, 255, 0.637);
       }  
       .image{
         margin-left: 50px;
+        background-color: #ffffffd2;
+        border: solid 5px #000000;
+     
       }  
 
 /* .........................................contact.html......................... */
@@ -292,8 +321,10 @@ background-color:rgba(255, 255, 255, 0.637);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #fff;
-  background-color:#5b3de4 ;
+  color: #ffffff;
+  background-color:#000000 ;
+  border: solid #ffffff;
+ 
   
 
 
@@ -301,22 +332,26 @@ background-color:rgba(255, 255, 255, 0.637);
   border-radius: 50px;
   
 }
+
+
 .phone{
       margin-top: 50px;
       justify-content: center;
       display: flex;
       flex-direction: column;
       align-items: center;
+    
     }
     .phone h2{
       margin-top: 25px;
       margin-left: 0px;
       text-decoration: underline;
       color: #fff;
-     
-      
+      background-color: #000000;
+      border-bottom: solid #ffffff;
     }
-    .location{
+    
+      .location{
       margin-top: 50px;
       justify-content: center;
       display: flex;
@@ -329,6 +364,8 @@ background-color:rgba(255, 255, 255, 0.637);
       margin-left: 50px;
       text-decoration: underline;
       color: #fff;
+      background-color: #000000;
+      border-bottom: solid #ffffff;
     }
      .ig{
       margin-top: 50px;
@@ -342,6 +379,8 @@ background-color:rgba(255, 255, 255, 0.637);
       margin-left: 20px;
       text-decoration: underline;
       color: #fff;
+      background-color: #000000;
+      border-bottom: solid #ffffff;
     }
 
 
@@ -359,14 +398,21 @@ background-color:rgba(255, 255, 255, 0.637);
   margin-left: 10px;
   flex-direction: column;
    row-gap: 10px;
+   text-align: center;
+}
+.image3 img{
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: solid #000000;
 }
 .image3 h2{
 
-  color: #ffffff;}
+  color: #ffffff;
+   border-bottom: solid #000000;}
 
 .rec{
 
-  background-color: #ffffff98;
+  background-color: #ffffff;
   justify-content: center;
   display: flex;
   width: 250px;
@@ -374,39 +420,44 @@ background-color:rgba(255, 255, 255, 0.637);
   flex-direction: row;
   row-gap: 20px;
   height: 150px;
+  border: solid #000000;
   
 }
  .rec1{
 
-  background-color: #ffffff98;
+  background-color: #ffffff;
   justify-content: center;
   display: flex;
   width: 300px;
   border-radius: 20px;
   height: 150px;
+  border: solid #000000;
   }
   .rec2{
 
-  background-color: #ffffff98;
+  background-color: #ffffff;
  
   display: flex;
   width: 200px;
   border-radius: 20px;
   height: 150px;
   flex-direction: column;
+  border: solid #000000;
  
   }
   .rec2 h4{
     margin-top: 5px;
-    text-align: center;}
+    text-align: center;
+     border-bottom: solid #000000;}
 
   .rec2 p{
     margin-top: 25px;
     text-align: center;
+    
   }
    .rec3{
 
-  background-color: #ffffff98;
+  background-color: #ffffff;
  
   display: flex;
   width: 200px;
@@ -414,11 +465,13 @@ background-color:rgba(255, 255, 255, 0.637);
   height: 150px;
   margin-top: 80px;
   flex-direction: column;
+  border: solid #000000;
 
   }
    .rec3 h4{
     margin-top: 5px;
-    text-align: center;}
+    text-align: center;
+    border-bottom: solid #000000;}
 
   .rec3 p{
     margin-top: 25px;
@@ -427,13 +480,14 @@ background-color:rgba(255, 255, 255, 0.637);
 
 
   .recskill{
-    background-color: #ffffff98;
+    background-color: #ffffff;
      display: flex;
   width: 250px;
   border-radius: 20px;
   height: 50px;
   align-items: center;
   row-gap: 50px;
+  border: solid #000000;
 
   
 
@@ -454,6 +508,7 @@ background-color:rgba(255, 255, 255, 0.637);
 .skill p{
   align-items: center;
   margin-top: 25px;
+  text-decoration: underline;
   
   
 }
@@ -471,18 +526,21 @@ background-color:rgba(255, 255, 255, 0.637);
   }
 
  .reccertification{
-    background-color: #ffffff98;
+    background-color: #ffffff;
      display: flex;
   width: 300px;
   border-radius: 20px;
   height: 50px;
   align-items: center;
   row-gap: 50px;
+   border: solid #000000;
+
 
   }
   .certification p{
   align-items: center;
   margin-top: 25px;
+  text-decoration: underline;
   
   
 }
@@ -505,7 +563,7 @@ background-color:rgba(255, 255, 255, 0.637);
   }
    
 .receducation{
-    background-color: #ffffff98;
+    background-color: #ffffff;
      display: flex;
   width: 200px;
   border-radius: 20px;
@@ -513,6 +571,8 @@ background-color:rgba(255, 255, 255, 0.637);
   align-items: center;
   row-gap: 50px;
   justify-content: left;
+   border: solid #000000;
+
  }
 .content2{
     display: flex;
@@ -588,9 +648,10 @@ ul li {
     max-height: max-content;
     
    
-    background-color:#2a3bd8;
+    background-color:#000000;
     margin-top: 150px;
     left: 0;
+    border: solid #ffffff;
   
   }
 .mobile-navbar-link-show{
@@ -684,14 +745,17 @@ ul li {
     align-items: center;
     color: #000000;
     font-size: larger;
-background-color:rgba(255, 255, 255, 0.637);
+background-color:rgb(255, 255, 255);
 border-radius: 20px;
+border: solid 2px #000000;
+text-align: center;
 
    
 }
 .image{
   display: flex;
   margin-right: 40px;
+  
 }
 
 
