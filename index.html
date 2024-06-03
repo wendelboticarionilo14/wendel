@@ -1,30 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <title>wendel nilo</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WENDEL NILO</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-         <h1>THIS IS MY PORTFOLIO</h1>
-        <div class="envelope-wrapper">
-            <div class="envelope">
-                <div class="letter">
-                     <h6>Hi! Im Wendel Nilo<br>to check my portfolio please...</h6>
-                    <div class="text"><a href="home1.html"><p>click here!</p></a>
-                    </div>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    
+  </head>
+  <body>
+     <nav class="navbar">
+      <div class="hamburger" id="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-link">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutme1.html">ABOUT ME</a></li>
+          <li><a href="contact1.html">CONTACT</a></li>
+          <li><a href="resume1.html">RESUME</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="mobile-navbar-link" id="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutme1.html">ABOUT ME</a></li>
+          <li><a href="contact1.html">CONTACT</a></li>
+          <li><a href="resume1.html">RESUME</a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <h1>PORT<span>FOLIO</span></h1>
+      </div>
+    </nav>
+
+    
+  
+
+       
+
+
+       <div class="contenthome">
+
+      
+              <div class="myimage">
+              <img src="image/me.png" width="350" height="350">
+       
+     
+              <div class="facebook1">
+            <a href="https://www.facebook.com/wendel.nilo.14"><img src="image/f.png" width="64" height="64"/></a>
+            <a href="https://www.instagram.com/nilowendel"><img src="image/i.png" width="65" height="65"/></a>
+            <a href="https://www.tiktok.com/@nilo_wendel"><img src="image/t.png" width="64" height="65"/></a>
+           </div>
+        </div>
+        
+        
+
+        
+      
+             <div class="me2">
+                <div class="hi">
+                   <h1>HI!</h1>
+                  <h2>Im, WENDEL NILO</h2>
+                   <h3>YOUR</h3>
+                   <h2> WEBDEVELOPER</h2>
                 </div>
-            </div>
-         
-    </div>
-    <script>
-        const envelope = document.querySelector('.envelope-wrapper');
-        envelope.addEventListener('click', () => {
-            envelope.classList.toggle('flap');
-        });
-    </script>
-</body>
+             </div>
+           </div>
+       
+       
+      </div>
+    <script src="wendel.js"></script>
+  </body>
 </html>
